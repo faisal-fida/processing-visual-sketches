@@ -3,7 +3,7 @@ float xSpeed, ySpeed;
 int ballCount = 35;
 int lineCount = 300;
 int numCircles = 30;
-float xpos[], ypos[], xspeed[], yspeed[];
+float xpos[], ypos[], xspeed1[], yspeed1[];
 ArrayList < Ball > balls;
 ArrayList < Line > lines;
 
@@ -84,7 +84,7 @@ void draw() {
         xspeed1[i] = -xspeed1[i];
       }
       if (ypos[i] > height || ypos[i] < 0) {
-        yspeed[i] = -yspeed[i];
+        yspeed1[i] = -yspeed1[i];
       }
     }
     break;
